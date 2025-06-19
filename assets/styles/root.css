@@ -1,0 +1,155 @@
+:root {
+    /* 🎨 Colors */
+    --color-white: #ffffff;
+    --color-primary: #27e9b5;
+    --color-primary-dark: #1fa782;
+    --color-primary-soft: rgba(0, 150, 111, 0.2);
+    --color-secondary: #94a7b8;
+    --color-accent: #3b5265;
+    /* --color-surface: #1c3041; */
+    --color-surface: #203948;
+
+    --color-background: #05172b;
+    --color-text-primary-linear: linear-gradient(18deg, var(--color-secondary) 0%, var(--color-primary) 50%, var(--color-secondary) 100%);
+
+    /* 🔤 Font Sizes */
+    --fs-h1: 35px;
+    --fs-h3: 20px;
+    --fs-info: 16px;
+    --fs-button: 14px;
+    --fs-section-title: 16px;
+    --fs-description: 16px;
+    --fs-section-subtitle: 16px;
+    --fs-card-info: 14px;
+    --fs-card-description: 14px;
+    --fs-card-title: 16px;
+    --fs-card-label: 12px;
+    --fs-badge: 12px;
+    --fs-label: 14px;
+    --fs-label-value: 14px;
+    --fs-placeholder: 14px;
+
+    --fs-icon-small: 12px;
+    --fs-icon: 14px;
+    --fs-button-small: 12px;
+
+
+    /* 🔠 Font Weights */
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+
+    /* 🟦 Border Radius */
+    --radius-full: 100%;
+    --radius-half: 50%;
+    --radius-button-small: 6px;
+    --radius-button-medium: 8px;
+    --radius-card-small: 10px;
+    --radius-card-medium: 12px;
+    --radius-card-big: 16px;
+    --radius-badge-icon: 6px;
+    --radius-badge-label: 6px;
+    --radius-image-profile: 16px;
+    --radius-image-medium: 6px;
+    --radius-input: 8px;
+    --radius-form: 16px;
+
+    --radius-badge: 100px;
+
+    /* 📦 Padding */
+    --padding-body: 30px 28px;
+    /**/
+    --padding-main-section: 0 40px;
+    /**/
+    --padding-header: 0 40px;
+    --padding-button-medium: 12px 16px;
+    --padding-section-header: 14px 28px;
+    --padding-section-subheader: 8px 28px;
+    --padding-card-small: 18px;
+    --padding-card-medium: 22px;
+    --padding-card-big: 22px 32px;
+    --padding-badge: 6px 8px;
+    --padding-form: 22px;
+    --padding-input: 14px 18px;
+
+    --padding-icon-small: 8px;
+    --padding-icon-medium: 14px;
+    --padding-section: 0 28px;
+    --padding-button-small: 8px 12px;
+
+
+
+    /* 🔳 Gap */
+    --gap-body: 40px;
+    --gap-section: 60px;
+    --gap-section-main-container: 30px;
+    --gap-section-container: 24px;
+    --gap-container: 16px;
+    --gap-list: 12px;
+    --gap-card-xxs: 4px;
+    --gap-card-xs: 6px;
+    --gap-card-s: 8px;
+    --gap-card-m: 10px;
+    --gap-card-l: 14px;
+    --gap-card-xl: 16px;
+    --gap-card-2xl: 20px;
+    --gap-card: 12px;
+    /*24*/
+    --gap-card-medium: 16px;
+
+    --gap-list-medium: 20px;
+    --gap-button-small: 8px;
+    --gap-button-medium: 10px;
+
+    --gap-xs: 6px;
+
+    --gap-form: 16px;
+    --gap-form-input: 12px;
+
+    /* 📏 Sizes */
+    --size-full: 100%;
+
+    --size-image-project: 140px;
+    /* aspect ratio 16/9 */
+    --size-image-profile-small: 55px;
+    /* 1/1 */
+    --size-image-profile: 250px;
+    /* 1/1 */
+    --size-icon: 14px;
+
+    --size-card-main-icon: 25px;
+
+
+    --size-icon-medium: 50px;
+
+    --text-line-height-small: 135%;
+    --text-line-height-medium: 145%;
+}
+
+
+@media (min-width:768px) {
+    :root {
+        /* 📦 Padding */
+        --padding-body: 60px;
+        --padding-main-section: 0 60px;
+
+        /* 🔳 Gap */
+        --gap-card: 24px;
+        --gap-form: 16px;
+    }
+}
+
+@media (min-width:1024px) {
+    :root {
+        /* 📦 Padding */
+        --padding-body: 90px 0;
+        --padding-main-section: 0;
+        --padding-page-wrapper: 0 40px;
+        --padding-section: 0;
+
+        /* 🔳 Gap */
+        --gap-form: 16px;
+
+    }
+}
