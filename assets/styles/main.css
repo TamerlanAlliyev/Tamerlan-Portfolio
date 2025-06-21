@@ -233,8 +233,10 @@
   font-size: var(--fs-icon);
 }
 * body main .main-section .section-content .description-content {
-  white-space: pre-line;
   line-height: var(--text-line-height-medium);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-card-m);
 }
 * body main .main-section .big-card-list {
   display: flex;

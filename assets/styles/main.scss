@@ -271,9 +271,10 @@
 
 
                     .description-content {
-                        white-space: pre-line;
                         line-height: var(--text-line-height-medium);
-                        
+                        display: flex;
+                        flex-direction: column;
+                        gap: var(--gap-card-m);
                     }
 
 
